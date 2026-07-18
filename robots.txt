@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raumdesign-rudek-redesign.vercel.app/sitemap.xml

@@ -1,0 +1,10 @@
+{
+  "name": "raumdesign-rudek-redesign",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statisches Redesign für RaumDesign Rudek in Düsseldorf",
+  "scripts": {
+    "serve": "npx serve . -l 4173",
+    "check:html": "npx html-validate \"*.html\""
+  }
+}
