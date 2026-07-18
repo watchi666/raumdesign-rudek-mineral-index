@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://raumdesign-rudek-redesign.vercel.app/sitemap.xml
+Sitemap: https://raumdesign-rudek-mineral-index.vercel.app/sitemap.xml
