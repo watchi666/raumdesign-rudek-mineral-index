@@ -3,3 +3,6 @@ node_modules/
 .lighthouse-tmp/
 lighthouse-report*.json
 *.log
+
+.vercel
+.env*
