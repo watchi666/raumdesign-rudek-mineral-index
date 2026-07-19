@@ -38,7 +38,7 @@ Bewertung: Markenevidenz 30 %, Bildverträglichkeit 25 %, Differenzierung 20 %, 
 
 | Farbwelt | Beschreibung | Evidenz | Punkte |
 | --- | --- | --- | ---: |
-| **A — Mineral Index** | Kreideweiß, Tintenblau, mineralisches Mint, Chartreuse als kleine Pigmentmarke | Helle Putzflächen, blaue Lasuren, silbrige Strukturen; klarer Kontrast zur bestehenden Kupferwelt | **91/100** |
+| **A — Kalkatelier** | Kalkgrau, Graphit, gedämpfter Salbei, tiefes Aubergine und heller Putzton | Helle Putzflächen, Naturstein und das violette Farbkonzept realer Projekte; klarer Kontrast zur bestehenden Kupferwelt ohne digitale Signalfarben | **91/100** |
 | B — Lapislazuli Nacht | Tiefblau, Nebelgrau, Eisblau, Weiß | Verträgt die dunklen Projektbilder gut, bleibt aber wieder überwiegend dunkel | 79/100 |
 | C — Rosé Atelier | Puderrosa, Pflaume, Kalkweiß, Schwarz | Greift violette Räume auf, wirkt aber stärker mode- als materialgetrieben | 73/100 |
 

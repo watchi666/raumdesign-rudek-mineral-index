@@ -1,32 +1,34 @@
-# Designsystem: Mineral Index
+# Designsystem: Kalkatelier
 
 ## 1. Überblick
 
-„Mineral Index“ übersetzt die Arbeit eines gestaltungsorientierten Malerbetriebs in eine helle, grafische Materialwelt. Die Seite wirkt wie eine Mischung aus Werkstattarchiv, Pigmentkarte und zeitgenössischem Designkatalog. Sie vermeidet bewusst die zuvor dominante Kombination aus Near-Black, Kupfer und Editorial-Serif.
+„Kalkatelier“ übersetzt die Arbeit eines gestaltungsorientierten Malerbetriebs in eine ruhige, haptische Materialwelt. Die Seite wirkt wie eine Mischung aus Werkstattarchiv, Musterfläche und zeitgenössischem Designkatalog. Die Farbigkeit stammt aus Kalk, Naturstein, Salbei und dem tiefen Aubergine realer Rudek-Projekte. Sie vermeidet sowohl die frühere Schwarz-Kupfer-Kombination als auch digitale Neon- und Kobaltakzente.
 
 ## 2. Gestaltungsprinzipien
 
 1. **Material vor Dekoration:** Echte Oberflächen und Räume sind der Beweis.
 2. **Große Gesten, ruhige Bedienung:** Typografie und Bildmaßstab dürfen mutig sein; Navigation und Interaktionen bleiben eindeutig.
 3. **Unperfekte Präzision:** Organische Pigmentformen treffen auf ein strenges Raster.
-4. **Kontrast statt Luxusklischee:** Helles Kreidepapier und Tintenblau erzeugen Eigenständigkeit ohne Gold- oder Kupfercodes.
+4. **Kontrast ohne Lautstärke:** Helles Kalkgrau, Graphit und Aubergine erzeugen Eigenständigkeit ohne Gold-, Kupfer- oder Neoncode.
 5. **Persönliche Conversion:** Kontaktwege sind direkt, konkret und ohne künstlichen Druck.
 
 ## 3. Farbe
 
 | Token | Wert | Verwendung |
 | --- | --- | --- |
-| `--paper` | `#F1F1E8` | Hauptfläche, mineralische Grundstimmung |
-| `--paper-soft` | `#FAFAF4` | Sekundäre Flächen |
-| `--ink` | `#102A43` | Primärtext, Linien, Footer |
-| `--ink-soft` | `#385067` | Sekundärtext |
-| `--blue` | `#2347C5` | Primärakzent, Links, wichtige Begriffe |
-| `--blue-deep` | `#162B73` | Immersive Materialsektion |
-| `--mint` | `#CDDBD2` | Ruhige Materialfläche |
-| `--acid` | `#D7FF42` | Pigmentmarken und Conversion-Akzent |
+| `--paper` | `#F2F0EB` | Kalkgraue Hauptfläche |
+| `--paper-soft` | `#FAF9F6` | Helle Sekundärflächen |
+| `--ink` | `#252725` | Graphit für Primärtext, Linien und Footer |
+| `--ink-soft` | `#5D625E` | Gedämpftes Graugrün für Sekundärtext |
+| `--aubergine` | `#65505F` | Links, Buttons und wichtige Begriffe |
+| `--plum-deep` | `#342F35` | Dunkle Materialsektion |
+| `--sage` | `#BCC3B8` | Salbeigraue Materialfläche |
+| `--plaster` | `#D4CBC1` | Heller Putzton für Marken und Kontaktakzente |
 | `--white` | `#FFFFFF` | Text auf dunklen Flächen |
 
-Chartreuse wird sparsam eingesetzt: als Materialspur, nicht als flächiger Markenfarbersatz.
+Der helle Putzton bleibt bewusst leise. Orientierung entsteht durch Helligkeitskontrast und Typografie, nicht durch Signalfarbe.
+
+Die bisherigen internen Token-Namen bleiben als CSS-Aliasse erhalten, damit die Neufärbung keine Komponentenlogik berührt.
 
 ## 4. Typografie
 
@@ -51,11 +53,11 @@ Chartreuse wird sparsam eingesetzt: als Materialspur, nicht als flächiger Marke
 
 ### Header
 
-Fixiert, anfangs transparent, beim Scrollen kreidefarben mit Blur. Desktop-Navigation wird unter 1100 px durch ein natives Button-Menü ersetzt.
+Fixiert, anfangs transparent, beim Scrollen kalkfarben mit Blur. Desktop-Navigation wird unter 1100 px durch ein natives Button-Menü ersetzt.
 
 ### Buttons
 
-Eckige, hochkontrastige Flächen ohne generische Pill-Form. Primär in Tintenblau, Kontaktbutton in Dunkelblau. Hover bewegt die Fläche nur leicht nach oben.
+Eckige, hochkontrastige Flächen ohne generische Pill-Form. Primär in Aubergine, Kontaktbutton in Graphit. Hover bewegt die Fläche nur leicht nach oben.
 
 ### Projektarchiv
 
@@ -63,7 +65,7 @@ Native horizontale Scrollfläche mit Scroll Snap. Jede Karte ist ein Button und 
 
 ### Leistungszeilen
 
-Große, gerasterte Zeilen mit Nummer, Titel, Kurztext und Pfeil. Die Chartreuse-Fläche läuft auf Hover hinter den Inhalt.
+Große, gerasterte Zeilen mit Nummer, Titel, Kurztext und Pfeil. Eine helle Putzfläche läuft auf Hover hinter den Inhalt.
 
 ### FAQ
 

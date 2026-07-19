@@ -1,6 +1,6 @@
 # QA-Bericht
 
-Stand: 18. Juli 2026
+Stand: 19. Juli 2026
 
 ## Ergebnis
 
@@ -17,6 +17,16 @@ Die statische Website ist funktional, responsiv und für das Deployment freigege
 | Defekte Bilder im Browser | 0 |
 | Horizontales Seitenoverflow | 0 bei 375, 768 und 1440 px |
 | Lokale Fonts geladen | Bricolage und Manrope bestätigt |
+| Neue Kalkatelier-Farbwelt | Keine Kobalt- oder Neonfarben mehr in den aktiven Design-Tokens |
+| Farbkontraste | Relevante Text-/Flächenkombinationen bestehen WCAG AA |
+
+Geprüfte Kontrastwerte der neuen Farbwelt:
+
+- Graphit auf Kalk: 13,21:1
+- Sekundärtext auf Kalk: 5,46:1
+- Aubergine auf Kalk: 6,43:1
+- Weiß auf Aubergine: 7,33:1
+- Weiß auf dunkler Pflaume: 13,09:1
 
 ## Lighthouse
 
@@ -51,6 +61,7 @@ Geprüfte Viewports:
 Gespeicherte Referenzen:
 
 - `screenshots/desktop-hero.png`
+- `screenshots/desktop-material.png`
 - `screenshots/desktop-services.png`
 - `screenshots/desktop-work.png`
 - `screenshots/desktop-dialog.png`

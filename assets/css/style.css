@@ -15,17 +15,21 @@
 }
 
 :root {
-  --paper: #f1f1e8;
-  --paper-soft: #fafaf4;
-  --ink: #102a43;
-  --ink-soft: #385067;
-  --blue: #2347c5;
-  --blue-deep: #162b73;
-  --mint: #cddbd2;
-  --acid: #d7ff42;
+  --paper: #f2f0eb;
+  --paper-soft: #faf9f6;
+  --ink: #252725;
+  --ink-soft: #5d625e;
+  --aubergine: #65505f;
+  --plum-deep: #342f35;
+  --sage: #bcc3b8;
+  --plaster: #d4cbc1;
+  --blue: var(--aubergine);
+  --blue-deep: var(--plum-deep);
+  --mint: var(--sage);
+  --acid: var(--plaster);
   --white: #ffffff;
-  --line: rgba(16, 42, 67, 0.2);
-  --shadow: 0 24px 80px rgba(16, 42, 67, 0.16);
+  --line: rgba(37, 39, 37, 0.22);
+  --shadow: 0 24px 80px rgba(52, 47, 53, 0.16);
   --font-display: "Bricolage", sans-serif;
   --font-body: "Manrope", sans-serif;
   --content: 88rem;
@@ -858,7 +862,7 @@ a {
   position: absolute;
   inset: 0;
   content: "";
-  background: linear-gradient(120deg, rgba(35, 71, 197, 0.05), rgba(215, 255, 66, 0.13));
+  background: linear-gradient(120deg, rgba(101, 80, 95, 0.12), rgba(188, 195, 184, 0.16));
   mix-blend-mode: color;
 }
 
@@ -884,7 +888,7 @@ a {
   position: absolute;
   inset: -1.4rem;
   content: "";
-  border: 1px solid rgba(215,255,66,0.55);
+  border: 1px solid rgba(212, 203, 193, 0.7);
   border-radius: 60% 40% 46% 54% / 41% 60% 40% 59%;
 }
 
